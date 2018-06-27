@@ -1,0 +1,1 @@
+create table prueba (campo1 integer, campo2 varchar2(19));

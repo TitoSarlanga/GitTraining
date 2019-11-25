@@ -1,19 +1,21 @@
-[TOC]
-
-----------
+[Prerequisites](#prerequisites)
+[Obtaining source code](#obtaining-source-code)
+[Start MongoDB](#start-mongodb)
+[Create seed for Localhost instance DB](#create-seed-for-localhost-instance-db)
+[Connect to Localhost instance DB](#connect-to-localhost-instance-db)
+[First build - Hello Logger](#first-build-hello-logger)
+[Run the application](#run-the-application)
+[Testing](#testing)
+[Admin login (configuration)](#admin-login-connfiguration)
 
 Sport Logger (SL)
 ===================
 
-
 This project was generated with the Angular Full-Stack Generator version 3.6.1.
 
 
-----------
-
 Prerequisites
 -------------
-
  - [VS Code][1] → Run installer with default options
  - [Git][2] → Run installer with default options
  - [NodeJs][3] → Run installer with default options
@@ -22,7 +24,6 @@ Prerequisites
  - Grunt → Install with NPM
  - Express → Install with NPM
 
-----------
 
 Obtaining source code
 -------------
@@ -34,13 +35,11 @@ Obtaining source code
  - Get into the src folder → `cd src`
  - Open the project in VS Code → `code .`
 
-----------
 
 Start MongoDB
 -------------
  - Go to the folder as MongoDB was installed and execute mongod.exe. Usually, the path may be this: `C:\Program Files\MongoDB\Server\3.2\bin>mongod`
 
-----------
 
 Create seed for Localhost instance DB
 -------------
@@ -60,7 +59,6 @@ Create seed for Localhost instance DB
  - Press **Test Connection** button and **Save & Connect** button
  - Paste the database in this connection. Right click over the DB instante and select **Paste Database**
 
-----------
 
 Connect to Localhost instance DB
 -------------
@@ -68,8 +66,6 @@ Connect to Localhost instance DB
  - Open NoSQLBooster for MongoDB
  - Click in ‘Connect’ and  select localhost instance
 
-
-----------
 
 First build - Hello Logger
 -------------
@@ -85,25 +81,21 @@ First build - Hello Logger
 	 - `npm install`
 	 - `grunt serve`
 
-----------
 
 Run the application
 -------------
  - Open a terminal window in VS Code (Press Ctrl + ñ)
  - Run `grunt serve`
 
-----------
 
 Testing
 -------------
  - Open a terminal windows in VS Code (Press Ctrl + ñ)
  - Run `npm test`. This will run the unit test with karma
 
-----------
 
-Admin login (configuration)
+Admin login
 -------------
-
  - [Run the application](#run-the-application)
  - For local login, press ALT + L
  - user: admin | pass: admin

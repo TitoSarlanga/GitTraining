@@ -24,9 +24,9 @@ Index
 Prerequisites
 -------------
 
- - [Visual Studio 2017 or higher] [1]
+ - [Visual Studio 2017 or higher][1]
  - Net Framework 4.5.2
- - [SQL Server 2017] [2]
+ - [SQL Server 2017][2]
  - [GIT][3] or [SourceTree][4] (optional)
  - [Flyway][5]
 
@@ -42,7 +42,7 @@ Get the source code
 	 2.2. Run `git submodule update --init --recursive` for download the Atlassian.Jira submodule
 	 2.3. Change to develop branch: `git checkout develop`
  
-*For more information about git submodules:  http://openmetric.org/til/programming/git-pull-with-submodule/*
+	> For more information about git submodules:  http://openmetric.org/til/programming/git-pull-with-submodule/
  ----------
 
 

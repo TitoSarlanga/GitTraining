@@ -38,12 +38,13 @@ Get the source code
 
  1. Go to https://git.around.com.ar/around/internal and copy the URL
  2. In GIT Bash
-	 1. Clone the repo: `git clone [url]`
-	 2. Run `git submodule update --init --recursive` for download the Atlassian.Jira submodule
-	 3. Change to develop branch: `git checkout develop`
- 
+	 3. Clone the repo: `git clone [url]`
+	 4. Run `git submodule update --init --recursive` for download the Atlassian.Jira submodule
+	 5. Change to develop branch: `git checkout develop`
+
 	> For more information about git submodules:  http://openmetric.org/til/programming/git-pull-with-submodule/
- ----------
+
+----------
 
 
 Develop instance vs Local instance

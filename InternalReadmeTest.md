@@ -10,6 +10,16 @@ The purpose of this document is to define the necessary steps for clone and buil
 
 ----------
 
+Index
+-------------
+
+ - [Prerequisites](#prerequisites)
+ - [Get the source code](#Get-the-source-code)
+ - [Develop instance vs Local instance](#develop-instance-vs-Local-instance)
+ - [Build and run the app](#build-and-run-the-app)
+
+----------
+
 
 Prerequisites
 -------------
@@ -34,7 +44,6 @@ Get the source code
  
 *For more information about git submodules:  http://openmetric.org/til/programming/git-pull-with-submodule/*
  ----------
- 
 
 
 Develop instance vs Local instance
